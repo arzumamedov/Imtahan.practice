@@ -1,0 +1,72 @@
+.ColorOurBestServices {
+    background-image: url("https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/section_bg02.jpg.webp");
+    width: 100%;
+    height: 90vh;
+    display: flex;
+
+    .ColorOurBestServicesText {
+        width: 70%;
+        // height: 400px;
+        margin: auto;
+        // background-color: aqua;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .ColorRight {
+        width: 600px;
+        // background-color: green;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        button {
+            width: 200px;
+            height: 45px;
+            background-color: #ff2143;
+            border: none;
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 500;
+        }
+
+        .firtsP {
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 20px;
+        }
+
+        .secondP {
+            color: rgb(209, 209, 209);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 15px;
+        }
+
+        h2 {
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 46px;
+        }
+
+        .linetexts {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            p {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 15px;
+                font-weight: 500;
+                color: rgb(209, 209, 209);
+            }
+        }
+
+        .Line {
+            width: 40px;
+            height: 2px;
+            background-color: white;
+        }
+    }
+}
